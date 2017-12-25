@@ -1,7 +1,7 @@
 version: '2'
 services:
   eureka-service-repository:
-    image: 585864718859.dkr.ecr.us-west-2.amazonaws.com/chinikom-eureka-service-repository
+    image: 585864718859.dkr.ecr.us-west-2.amazonaws.com/chinikom-service-discovery
     cpu_shares: 100
     mem_limit: 1073741824
     ports:
